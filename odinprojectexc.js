@@ -126,3 +126,15 @@ const greeting =
 console.log(greeting);
 
 // Edit above this line ==============
+
+// Write an arrow function called add7 that takes one number and returns that number + 7.
+let add7 = (x) => x + 7;
+console.log(add7(7));
+
+// Write a function called multiply that takes 2 numbers and returns their product.
+let multiply = (a, b) => a * b;
+console.log(multiply(5, 6));
+
+//Write a function called capitalize that takes a string and returns that string with only the first letter capitalized. Make sure that it can take strings that are lowercase, UPPERCASE or BoTh.
+let capitalize = (string) => string[0].toUpperCase() + string.slice(1);
+console.log(capitalize("towel"));

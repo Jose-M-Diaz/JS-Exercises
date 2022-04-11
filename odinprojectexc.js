@@ -138,3 +138,7 @@ console.log(multiply(5, 6));
 //Write a function called capitalize that takes a string and returns that string with only the first letter capitalized. Make sure that it can take strings that are lowercase, UPPERCASE or BoTh.
 let capitalize = (string) => string[0].toUpperCase() + string.slice(1);
 console.log(capitalize("towel"));
+
+//Write a function called lastLetter that takes a string and returns the very last letter of that string:
+let lastLetter = (string) => string.charAt(string.length - 1);
+console.log(lastLetter("abcd"));
